@@ -1,0 +1,23 @@
+{
+    "name": "sudoku-solution-checker",
+    "description": "Sudoku Solution Checker",
+    "keywords": ["sudoku", "checker"],
+    "authors": [
+        {
+            "name": "Marcel V. Kohls",
+            "email": "marcel.v.kohls@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\Domain\\": "app/domains",
+            "App\\Domain\\Collection\\": "app/domains/collections",
+            "App\\Domain\\Traits\\": "app/domains/traits",
+            "App\\Domain\\Exception\\": "app/domains/exceptions",
+            "App\\Domain\\Factory\\": "app/domains/factories"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^7"
+    }
+}
